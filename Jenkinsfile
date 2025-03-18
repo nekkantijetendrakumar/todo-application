@@ -2,7 +2,7 @@ pipeline {
 	agent any
 	
 	environment {
-		GITHUB_REPO = 'https://github.com/nekkantijetendrakumar/todo-application
+		GITHUB_REPO = 'https://github.com/nekkantijetendrakumar/todo-application.git'
 		DOCKER_IMAGE = 'jetendranekkanti/todo-application'
 	}
 
